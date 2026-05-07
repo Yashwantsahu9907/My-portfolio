@@ -7,6 +7,7 @@ import About from './pages/public/About'
 import Skill from './pages/public/Skill'
 import Project from './pages/public/Project'
 import Contact from './pages/public/Contact'
+import Footer from './components/common/Footer'
 
 
 
@@ -30,7 +31,9 @@ function App() {
 
 
       </Routes>
+      <Footer />
     </BrowserRouter>
+
   )
 }
 
